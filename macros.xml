@@ -12,5 +12,25 @@
       <action id="EditorRight" />
       <action id="EditorEnter" />
     </macro>
+    <macro name="console.log">
+      <typing text-keycode="67:0;79:0;78:0;83:0;79:0;76:0;69:0;46:0;76:0;79:0;71:0;57:1">console.log(</typing>
+      <action id="EditorRight" />
+      <typing text-keycode="59:0">;</typing>
+    </macro>
+    <macro name="Anonim_js">
+      <typing text-keycode="59:0;57:1">;(</typing>
+      <action id="EditorRight" />
+      <typing text-keycode="57:1">(</typing>
+      <action id="EditorRight" />
+      <typing text-keycode="59:0">;</typing>
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <action id="EditorLeft" />
+      <typing text-keycode="70:0;85:0;78:0;67:0;84:0;73:0;79:0;78:0;57:1">function(</typing>
+      <action id="EditorRight" />
+      <typing text-keycode="91:1">{</typing>
+      <action id="EditorEnter" />
+    </macro>
   </component>
 </application>
