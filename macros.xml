@@ -32,5 +32,13 @@
       <typing text-keycode="91:1">{</typing>
       <action id="EditorEnter" />
     </macro>
+    <macro name="doc.ready">
+      <typing text-keycode="52:1;57:1;70:0;85:0;78:0;67:0;84:0;73:0;79:0;78:0;57:1">$(function(</typing>
+      <action id="EditorRight" />
+      <typing text-keycode="91:1;32:0">{&amp;#x20;</typing>
+      <action id="EditorEnter" />
+      <action id="EditorDown" />
+      <typing text-keycode="59:0">;</typing>
+    </macro>
   </component>
 </application>
