@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="index" type="PLAIN_TEXT" />
+      <mapping pattern="AppRoutsBefore.json" type="PLAIN_TEXT" />
       <mapping pattern=".gitignor" type="PLAIN_TEXT" />
       <mapping ext="mp4" type="PLAIN_TEXT" />
       <mapping pattern="Proba1" type="XHTML" />
